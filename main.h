@@ -17,9 +17,9 @@
 
 typedef struct format
 {
-	char *ph;
-	int (*function)();
-} convert;
+	char *id;
+	int (*f)();
+} match;
 
 int *_strcpy(char *dest, char *src);
 int print_pointer(va_list val);
